@@ -15,7 +15,7 @@ if(età < 18){
     console.log(message);
 }
 /* Creare una condizione per il 40% di sconto per gli over 65; */
-else if(età > 65){
+else if(età >= 65){
     let biglietto = ((0.21 * km_desiderati) * 40 / 100);
     console.log(biglietto);
 
